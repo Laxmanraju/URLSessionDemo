@@ -14,6 +14,7 @@
 		0BC3E01F1F17F9BD006F423B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC3E01D1F17F9BD006F423B /* LaunchScreen.storyboard */; };
 		0BC3E02A1F17F9BD006F423B /* URLSessionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3E0291F17F9BD006F423B /* URLSessionDemoTests.swift */; };
 		0BC3E0351F17F9BD006F423B /* URLSessionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3E0341F17F9BD006F423B /* URLSessionDemoUITests.swift */; };
+		0BC3E0431F180037006F423B /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3E0421F180037006F423B /* Media.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0BC3E0301F17F9BD006F423B /* URLSessionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLSessionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC3E0341F17F9BD006F423B /* URLSessionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDemoUITests.swift; sourceTree = "<group>"; };
 		0BC3E0361F17F9BD006F423B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC3E0421F180037006F423B /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0BC3E0141F17F9BD006F423B /* AppDelegate.swift */,
 				0BC3E0161F17F9BD006F423B /* ViewController.swift */,
+				0BC3E0421F180037006F423B /* Media.swift */,
 				0BC3E0181F17F9BD006F423B /* Main.storyboard */,
 				0BC3E01B1F17F9BD006F423B /* Assets.xcassets */,
 				0BC3E01D1F17F9BD006F423B /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				0BC3E0171F17F9BD006F423B /* ViewController.swift in Sources */,
 				0BC3E0151F17F9BD006F423B /* AppDelegate.swift in Sources */,
+				0BC3E0431F180037006F423B /* Media.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +520,7 @@
 				0BC3E03B1F17F9BD006F423B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BC3E03C1F17F9BD006F423B /* Build configuration list for PBXNativeTarget "URLSessionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				0BC3E03E1F17F9BD006F423B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BC3E03F1F17F9BD006F423B /* Build configuration list for PBXNativeTarget "URLSessionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				0BC3E0411F17F9BD006F423B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
